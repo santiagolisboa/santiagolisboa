@@ -2,8 +2,8 @@
 var images = [
     {
       url: "./img/web7.png",
-      link: "https://www.example.com/page1",
-      title: "Titre de l'image 1"
+      link: "/tennis_player",
+      title: "Pong"
     },
     {
       url: "chemin/vers/image2.jpg",
