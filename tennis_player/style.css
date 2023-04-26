@@ -1,0 +1,29 @@
+body{
+    text-align: center;
+    align-items: center;
+}
+
+.body-main {
+    width: fit-content;
+	background: #393e46;
+	font-family: 'Press Start 2P';
+	color: black;
+}
+
+.container {
+    width: fit-content;
+	color: #ffa41b;
+	font-family: 'Press Start 2P';
+	padding-top: 2%;
+	font-size: 100px;
+}
+
+.canvas-body {
+    width: fit-content;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	margin: auto;
+	border: 3px solid #ffe75e;
+}
