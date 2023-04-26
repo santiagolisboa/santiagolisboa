@@ -1,0 +1,8 @@
+#canvas {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  pointer-events: none; /* This will prevent the canvas from capturing mouse events */
+}
