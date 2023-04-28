@@ -1,44 +1,68 @@
-// Tableau d'objets représentant chaque image du carrousel
+// Poppup content
 var images = [
     {
-      url: "./img/web7.png",
-      link: "/tennis_player",
-      title: "Pong"
+      url: "./img/french_retro.png",
+      link: "https://www.frenchretro.com",
+      title: "French Retro"
     },
     {
-      url: "chemin/vers/image2.jpg",
-      link: "https://www.example.com/page2",
-      title: "Titre de l'image 2"
+      url: "./img/rezinwood.png",
+      link: "https://www.rezinwood.com",
+      title: "Rezin Wood"
     },
     {
-      url: "chemin/vers/image3.jpg",
-      link: "https://www.example.com/page3",
-      title: "Titre de l'image 3"
+      url: "./img/eleye.png",
+      link: "https://www.eleye.co",
+      title: "ELEYE"
     },
-    // ... Ajoutez autant d'images que vous le souhaitez
+    {
+      url: "./img/ressources.png",
+      link: "https://www.ressources.green/",
+      title: "Ressources"
+    },
+    {
+      url: "img/jesaispas.png",
+      link: "https://www.jesaispas.com/",
+      title: "Je sais pas encore"
+    },
+    {
+      url: "img/jesaispas.png",
+      link: "https://www.jesaispas.com/",
+      title: "Je sais pas encore"
+    },
+    {
+      url: "img/jesaispas.png",
+      link: "https://www.jesaispas.com/",
+      title: "Je sais pas encore"
+    },
+    {
+      url: "img/jesaispas.png",
+      link: "https://www.jesaispas.com/",
+      title: "Je sais pas encore"
+    },
   ];
   
-  // Fonction pour ouvrir le popup avec l'image, le titre et le lien correspondants
+  // Opens popup
   function openPopup(imgUrl, title, linkUrl) {
-    // Récupérer le popup et le contenu du popup
+
     var popup = document.getElementById("popup");
     var popupContent = document.getElementById("popup-content");
     
-    // Afficher l'image, le titre et le bouton avec le lien
+    // Sends the image, title and button in the popup
     popupContent.innerHTML = '<img src="' + imgUrl + '"><h2>' + title + '</h2><button id="site" onclick="window.location.href=\'' + linkUrl + '\'">Voir le site</button>';
     
-    // Afficher le popup
+    // Displays the popup
     popup.style.display = "block";
   }
   
-  // Événement de clic pour chaque image du carrousel
+  // Function for every image of .carousel
   var carouselImages = document.querySelectorAll(".carousel img");
   for (var i = 0; i < carouselImages.length; i++) {
     carouselImages[i].addEventListener("click", function() {
       // Récupérer l'index de l'image dans le tableau d'objets
       var index = parseInt(this.getAttribute("data-index"));
       
-      // Récupérer l'URL de l'image, le titre et le lien correspondants dans le tableau d'objets
+      
       var imgUrl = images[index].url;
       var title = images[index].title;
       var linkUrl = images[index].link;
