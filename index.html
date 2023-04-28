@@ -19,9 +19,9 @@
     <!--Font Awasome-->
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
-    <!--Link ke css-->
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="stylebretzels.css">
+    <!--Link le css-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/stylebretzels.css">
 
     <!-- Logo -->
     <link rel="shortcut icon" href="img/logo.png" type="image/png">
@@ -29,8 +29,6 @@
     <!-- jquery -->
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="path/to/your/custom/script.js"></script>
-
     <!--Google Font-->
 
     <!--poppins-->
@@ -57,7 +55,7 @@
     </canvas> 
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
         <a class="navbar-item" href="#">Santi<span class="span">ago</span></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -69,7 +67,7 @@
               <a class="nav-link" aria-current="page" href="#Accueil">Accueil</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#Moi">Moi</a>
+              <a class="nav-link" href="#Moi">À propos de moi</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#project">project</a>
@@ -104,7 +102,7 @@
     <section id="Accueil">
       <div class="jumbotron jumbotron-fluid">
         <div class="container-fluid text">
-          <h2 class="display-4">Moi & Me Contacter</h2>
+          <h2 class="display-4">À propos de moi & Me Contacter</h2>
           <h1 class="h1 greeting">Salut je m'appelle <span class="span Santiago typed-text"></span><span class="cursor">&nbsp;</span></h1>
           <h3 class="lead">Chef de projet IT</h3>
           <!-- Sosial Media -->
@@ -125,8 +123,11 @@
         <div class="row justify-content-center d-flex align-items-center">
           <div class="col-lg-6 col-md-12 justify-content-center d-flex align-items-center">
             <div class="text-capitalize text-Moi">
-              <h1>Moi <span><!-- Moi --></span></h1>
-              <p>Je suis Santiago LISBOA, j'ai un BTS SIO et une licence Analyste en génie informatique option logiciel, web et applications mobiles. J'ai également deux ans d'expérience en tant que chef de projet informatique chez Groupe Danils. Actuellement, je suis en train de poursuivre un Master en Management Commercial. Je suis passionné par les nouvelles technologies, le numérique et l'innovation, et j'ai une forte expérience en gestion de projets.</p>
+              <h1 id="a_propos" class="a_propos">À propos de moi <span><!-- Moi --></span></h1>
+              <p class="description">Je suis Santiago LISBOA, j'ai un BTS SIO et une licence Analyste en génie informatique option logiciel, web et applications mobiles. 
+                J'ai également deux ans d'expérience en tant que chef de projet informatique chez Groupe Danils. 
+                Actuellement, je suis en train de poursuivre un Master en Management Commercial. 
+                Je suis passionné par les nouvelles technologies, le numérique et l'innovation, et j'ai une forte expérience en gestion de projets.</p>
             </div>
           </div> 
           <div class="col-lg-6 col-md-12 justify-content-center d-flex align-items-center">
@@ -149,33 +150,32 @@
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
       <div class="carousel-inner justify-content-center">
         <div class="carousel-item active justify-content-center d-flex" id="popup-content image-popup">
-          <a target="blank">
-            <img id="image-popup" src="img/web7.png" class="d-block w-85 img-fluid" alt="Engxzu" data-index="0">
+          <a target="blank"><img id="image-popup" src="img/french_retro.png" class="d-block w-85 img-fluid" alt="French Retro" data-index="0">
           </a>
         </div>
-        <div class="carousel-item justify-content-center d-flex">
-          <a  target="blank"><img src="img/kfood.png" class="d-block w-85 img-fluid" alt="Korean-Food"></a>
+        <div class="carousel-item justify-content-center d-flex" id="popup-content image-popup">
+          <a  target="blank"><img id="image-popup" src="img/rezinwood.png" class="d-block w-85 img-fluid" alt="Rezin Wood" data-index="1"></a>
         </div>
-        <div class="carousel-item justify-content-center d-flex">
-          <a  target="blank"><img src="img/web5.png" class="d-block w-85 img-fluid" alt="Vinzfa"></a>
+        <div class="carousel-item justify-content-center d-flex" id="popup-content image-popup">
+          <a  target="blank"><img id="image-popup" src="img/eleye.png" class="d-block w-85 img-fluid" alt="ELEYE" data-index="2"></a>
         </div>
-        <div class="carousel-item justify-content-center d-flex">
-          <a  target="blank"><img src="img/belaxcy.png" class="d-block w-85 img-fluid" alt="Belxacy"></a>
+        <div class="carousel-item justify-content-center d-flex" id="popup-content image-popup">
+          <a  target="blank"><img id="image-popup" src="img/ressources.png" class="d-block w-85 img-fluid" alt="Ressources" data-index="3"></a>
         </div>
-        <div class="carousel-item justify-content-center d-flex">
-          <a  target="blank" ><img src="img/vencvel.png" class="d-block w-85 img-fluid" alt="Vencvel"></a>
+        <div class="carousel-item justify-content-center d-flex" id="popup-content image-popup">
+          <a  target="blank" ><img id="image-popup" src="img/jesaispas.png" class="d-block w-85 img-fluid" alt="Post Service" data-index="4"></a>
         </div>
-        <div class="carousel-item justify-content-center d-flex">
-          <a  target="blank" ><img src="img/mobile3.png" class="d-block w-85 img-fluid" alt="Management-Project-Task-UI-Design-by-Santiago"></a>
+        <div class="carousel-item justify-content-center d-flex" id="popup-content image-popup">
+          <a  target="blank" ><img id="image-popup" src="img/jesaispas.png" class="d-block w-85 img-fluid" alt="Demand Planning" data-index="4"></a>
         </div>
-        <div class="carousel-item justify-content-center d-flex">
-          <a  target="blank" ><img src="img/web4.png" class="d-block w-85 img-fluid" alt="Dictionory api"></a>
+        <div class="carousel-item justify-content-center d-flex" id="popup-content image-popup">
+          <a  target="blank" ><img id="image-popup" src="img/jesaispas.png" class="d-block w-85 img-fluid" alt="CRM" data-index="5"></a>
         </div>
-        <div class="carousel-item justify-content-center d-flex">
-          <a  target="blank" ><img src="img/web6.png" class="d-block w-85 img-fluid" alt="Quote"></a>
+        <div class="carousel-item justify-content-center d-flex" id="popup-content image-popup">
+          <a  target="blank" ><img id="image-popup" src="img/jesaispas.png" class="d-block w-85 img-fluid" alt="Quote" data-index="6"></a>
         </div>
-        <div class="carousel-item justify-content-center d-flex">
-          <a  target="blank" ><img src="https://cdn.dribbble.com/users/8652445/screenshots/16344929/media/d96119dbe827da774056b646ea4f98ee.png" class="d-block w-85 img-fluid" alt="..."></a>
+        <div class="carousel-item justify-content-center d-flex" id="popup-content image-popup">
+          <a  target="blank" ><img id="image-popup" src="img/jesaispas.png" class="d-block w-85 img-fluid" alt="..." data-index="7"></a>
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -232,32 +232,32 @@
           <div class="col-lg-6 col-md-6 isi-card d-flex justify-content-center">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title">one time revision</h5>
-                <p class="card-text">All of the revision will updated on time. But with best design quality that can make you safety.</p>
+                <h5 class="card-title">Créativité</h5>
+                <p class="card-text">Je suis fier de ma créativité et de ma capacité à penser en dehors des sentiers battus. J'aime trouver des solutions novatrices pour résoudre les problèmes et apporter de nouvelles idées qui améliorent les résultats.</p>
               </div>
             </div>
           </div>
           <div class="col-lg-6 col-md-6 isi-card d-flex justify-content-center">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title">design you'll like</h5>
-                <p class="card-text">This is What i love to do, so I’ll make sure you’re happy with the result. We’ll work as team and we’ll get a new target.</p>
+                <h5 class="card-title">Responsabilité</h5>
+                <p class="card-text">Pour moi, la responsabilité est une valeur essentielle. Je suis toujours prêt à prendre la responsabilité de mes actes et je m'assure que mes obligations sont remplies à temps et avec la plus grande efficacité possible.</p>
               </div>
             </div>
           </div>
           <div class="col-lg-6 col-md-6 isi-card d-flex justify-content-center">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title">Good Comunication</h5>
-                <p class="card-text">Communication is definitely the most important in work, i can speak english a little bit.</p>
+                <h5 class="card-title">Autonomie </h5>
+                <p class="card-text">Je suis une personne autonome qui est capable de travailler de manière indépendante et de prendre des décisions importantes en l'absence de supervision. Je suis confiant dans mes compétences et je suis toujours prêt à relever de nouveaux défis.</p>
               </div>
             </div>
           </div>
           <div class="col-lg-6 col-md-6 isi-card d-flex justify-content-center">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title">Healty Relationship</h5>
-                <p class="card-text">No dramas or difficult relationships. I’m here to make your life easier, solve your problems, and grow your bussiness.</p>
+                <h5 class="card-title">Détermination</h5>
+                <p class="card-text">J'ai une grande détermination pour atteindre mes objectifs, même face à des obstacles. Je suis persévérant et je ne recule pas facilement devant les difficultés. Je crois que la persévérance et la détermination sont des qualités essentielles pour atteindre le succès dans la vie.</p>
               </div>
             </div>
           </div>
@@ -272,8 +272,9 @@
         <div class="row justify-content-center d-flex row-testi">
           <div class="col-lg-5 one">
               <i class="fas fa-quote-left fa-4x"></i>
-              <h4>work with alena is such a happiness for me. She is very humble, smart and helpful.  I recommended her to you guys who needs a design stuff.</h4>
-              <h2>Audie Canrbre</h2>  
+              <h4>Je tiens à féliciter Santiago pour son travail exceptionnel en tant que chef de projet informatique chez Groupe Danils. Son expertise a été cruciale pour la réussite des projets de développement de logiciels en interne, et son travail a contribué à l'amélioration de notre efficacité opérationnelle et renforcé notre position sur le marché. Nous avons été fiers de l'avoir dans notre équipe et nous avons hâte de voir ses réalisations futures. Encore une fois, félicitations pour le travail remarquable que Santiago a accompli en tant que chef de projet informatique chez Groupe Danils.</h4>
+              <h2>Samuel Levy</h2>
+              <h5>Directeur Général chez Groupe Danils</h5>
           </div>
           <div class="col-lg-5 two">
             <div class="img-testi">
@@ -300,7 +301,7 @@
         <div class="container">
             <div class="row text-center mb-5">
                 <div class="contact-title">
-                  <h1>Contact <span>Me</span></h1>
+                  <h1>Me <span>contacter</span></h1>
                 </div>
             </div>
             <div class="row d-flex justify-content-center">
@@ -310,12 +311,12 @@
                 <div class="col-lg-7 d-flex justify-content-center">
                   <div class="col-md-6">
                     <div class="alert alert-info alert-dismissible fade show my-alert d-none" role="alert">
-                        <strong>Thank You!</strong> We have received your message.
+                        <strong>Merci !</strong> J'ai bien reçu votre message.
                         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                     </div>
                     <form name='contact-my-website'>
                         <div class="mb-3">
-                            <label for="name" class="form-label">Name</label>
+                            <label for="name" class="form-label">Nom</label>
                             <input type="text" class="form-control" id="name" aria-describedby="name" name="nama">
                         </div>
                         <div class="mb-3">
@@ -326,11 +327,11 @@
                           <label for="exampleFormControlTextarea1" class="form-label">Message</label>
                           <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
                         </div>
-                        <button type="submit" class="btn btn-kirim send float-end">Send</button>
+                        <button type="submit" class="btn btn-kirim send float-end">Envoyer</button>
 
                         <button class="btn-load btn-loading float-end d-none" type="button" disabled>
                             <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
-                            Loading...
+                            Chargement en cours...
                         </button>
                     </form>
                   </div>
