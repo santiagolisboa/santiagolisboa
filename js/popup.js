@@ -49,7 +49,7 @@ var images = [
     var popupContent = document.getElementById("popup-content");
     
     // Sends the image, title and button in the popup
-    popupContent.innerHTML = '<img src="' + imgUrl + '"><h2>' + title + '</h2><button id="site" onclick="window.location.href=\'' + linkUrl + '\'">Voir le site</button>';
+    popupContent.innerHTML = '<img src="' + imgUrl + '"><h2>' + title + '</h2><a href="' + linkUrl + '" target="_blank"><button id="site">Voir le site</button></a>';
     
     // Displays the popup
     popup.style.display = "block";

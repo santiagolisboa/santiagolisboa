@@ -45,7 +45,7 @@
 	text-decoration: none;
 }
 .navbar .container-fluid .span{
-	color: var(--purple)
+	color: #41644a
 }
 .navbar .navbar-nav .nav-item a{
 	font-weight: 400;
@@ -62,7 +62,7 @@
 	padding: 13px 19px;
 }
 .d-flex .btn:hover{
-	background-color: var(--purple);
+	background-color: #41644a;
 	color: var(--white);
 	transition: 0.5;
 }
@@ -122,7 +122,7 @@
 	animation: none;
 }
 .jumbotron .text span{	
-	color: var(--purple);
+	color: #41644a;
 }
 
 .jumbotron .text h3{
@@ -162,13 +162,13 @@
 .text-Moi h1:after{
 	content: '';
 	display: block;
-	border-bottom: 7px solid var(--purple);
+	border-bottom: 7px solid #41644a;
 	width: 20%;
 	padding-bottom: 2px;
 	margin-bottom: -9px;
 }
 .text-Moi span{
-	color: var(--purple);
+	color: #41644a;
 }
 .text-Moi p{
 	font-family: var(--poppins);
@@ -208,13 +208,13 @@
 .title-project h1:after{
 	content: '';
 	display: block;
-	border-bottom: 7px solid var(--purple);
+	border-bottom: 7px solid #41644a;
 	width: 10%;
 	padding-bottom: 9px;
 	margin-bottom: -9px;
 }
 .title-project span{
-	color: var(--purple);
+	color: #41644a;
 }
 
 /*skills&toools*/
@@ -229,13 +229,13 @@
 .title-skills h1:after{
 	content: '';
 	display: block;
-	border-bottom: 7px solid var(--purple);
+	border-bottom: 7px solid #41644a;
 	width: 8%;
 	padding-bottom: 9px;
 	margin-bottom: -9px;
 }
 .title-skills span{
-	color: var(--purple);
+	color: #41644a;
 }
 #skills .container-fluid .gambar-skills .col-lg-3{
 	padding-bottom: 3.5rem;
@@ -257,7 +257,7 @@
 	padding-bottom: 2rem;
 }
 .promise-title span{
-	color: var(--purple);
+	color: #41644a;
 }
 .datar-promise .isi-card{
 	padding-bottom: 2rem;
@@ -276,7 +276,7 @@
 #promise .card-text{
 	font-size: 18px;
 	font-weight: 400;
-	color: var(--purple)
+	color: #41644a
 }
 
 /*Testimonial*/
@@ -291,7 +291,7 @@
 	padding-left: 15px;  
 }
 #testimonial .one i{
-	color: var(--purple);
+	color: #41644a;
 	padding-bottom: 15px;
 }
 #testimonial .one h4{
@@ -304,13 +304,13 @@
 	font-size: 35px;
 	font-family: var(--poppins);
 	font-weight: 600;
-	color: var(--purple);
+	color: #41644a;
 	padding-bottom: 2rem;
 }
 #testimonial .one h6{
 	font-family: var(--poppins);
 	font-weight: 600;
-	color: var(--purple);
+	color: #41644a;
 	padding-bottom: 2rem;
 }
 /*Contact*/
@@ -331,7 +331,7 @@
 }
 
 .contact-title span{
-	color: var(--purple);
+	color: #41644a;
 }
 #contact form .form-label{
 	font-family: var(--poppins);
@@ -339,15 +339,15 @@
 }
 #contact form input{
 	border-radius: 0%;
-	color: var(--purple);
+	color: #41644a;
 }
 #contact textarea{
 	border-radius: 0%;
-	color: var(--purple);
+	color: #41644a;
 }
 /* Footer */
 footer{
-	background-color: var(--purple);
+	background-color: #41644a;
 	font-size: 21px;
 }
 .footer a{
@@ -365,7 +365,7 @@ footer{
 		padding: 3px 10px;
 	}
 	.navbar .navbar-nav .nav-item a{
-		background: linear-gradient(to right, var(--purple), #98d8aa);
+		background: linear-gradient(to right, #41644a, #98d8aa);
 		background-size: 200%;
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
@@ -394,7 +394,7 @@ footer{
 		color: black;
 	}
 	.jumbotron .text span{
-		color: var(--purple);
+		color: #41644a;
 	}
 	.jumbotron .text h3{
 		text-transform: capitalize;
@@ -418,7 +418,7 @@ footer{
 		height: 70px;
 	}
 	.jumbotron .sosial-media a:hover{
-		color: var(--purple);
+		color: #41644a;
 	}
 	/*Moi*/
 	.text-Moi{
@@ -428,7 +428,7 @@ footer{
 		font-size: 65px;
 	}
 	.text-Moi span{
-		color: var(--purple);
+		color: #41644a;
 	}
 	.text-Moi p{
 		font-size: 25px;
